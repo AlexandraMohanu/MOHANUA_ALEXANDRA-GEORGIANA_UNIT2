@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:pink;
+}
+
+h1 {
+  color:blue;
+  text-align:left;
+}
+
+h2 {
+
+  color:red;
+  text-align:left;
+}
+
+h3 {
+  color:green;
+  text-align:left;
+}
+
+p {
+  font-family:arial;
+  font-size: 24px;
+}
+table, th, td {
+  border: 2px solid purple;
+}
+
+img { 
+     border: 2px solid gray;
+     border-radius:50%;
+     width: 250px;
+     display:block;
+     padding: 2px;
+     margin:right;
+     opacity: 2;
+}
+ul {
+  list-style-type: square;
+  color:blue;
+}
+
+</style>
+
+<script>
+
+var slide_index=0;
+function ShowSlides() {
+var i;
+var imagini=document.getElementByClassName("slide");
+for (i=0;i<imagini.length;i++)
+{
+imagini[i].style.display="none";
+}
+slide_index++;
+if(slide_index > imagini.length)
+   {slide_index=1}
+imagini[slide_index-1].style.display="block";
+set Timeout(Slideuri,3000);
+
+</script>
+</head>
+
+<body>
+
+<h1>Cerinta 2</h1>
+<h1>Nume si prenume</h1>
+<p>Mohanu Alexandra-Georgiana</p>
+<h1>Adresa de E-mail</h1>
+<p>alexandramohanu@yahoo.com</p>
+<h2>Componente si caracteristici</h2>
+<h3>Laptop Lenovo idealpad 510-15IKB</h3>
+
+<table style="width:100%">
+  <tr>
+    <th>Denumire</th>
+    <th>Producator</th>
+    <th>Parametrii</th>
+  </tr>
+  <tr>
+    <td>CPU</td>
+    <td>Intel(R) Core(TM) i5-7200U</td>
+    <td>2.50GHz 2.70 GHz</td>
+  </tr>
+  <tr>
+    <td>Placa video</td>
+    <td>RTX 2060</td>
+    <td>6144 MB/td>
+    </tr>
+    <tr>
+    <td>Memorie</td>
+    <td>DDR4</td>
+    <td>16 GB</td>
+  </tr>
+  <tr>
+    <td>HARD DISK</td>
+    <td>SSD</td>
+    <td>512 GB</td>
+  
+  </tr>
+</table>
+
+<h3>Smartphone Apple Iphone 8</h3>
+<table style="width:100%">
+  <tr>
+    <th>Denumire</th>
+    <th>Producator</th>
+    <th>Parametrii</th>
+  </tr>
+  <tr>
+    <td>MEMORIE</td>
+    <td>Memorie RAM</td>
+    <td>8 GB</td>
+  </tr>
+ <tr>
+    <td>MEMORIE</td>
+    <td>Memorie interna</td>
+    <td>64GB</td>
+ </tr>
+ </table>
+  
+ <h2>Structura retelei</h2> 
+ <img src="diagrama.png">
+ 
+ <h2>Caracteristici conexiune retea</h2> 
+ 
+ <ul>
+  <li>MAC Adress: DC 21E28F59CB-D4(13)</li>
+  <li>IP Adress:192.168.100.1</li>
+ </ul>
+
+<h2>Monitorizare resurse</h2>
+<img src="imagine1.png">
+<img src="imagine2.png">
+<img src="imagine3.png">
+
+</body>
+</html>

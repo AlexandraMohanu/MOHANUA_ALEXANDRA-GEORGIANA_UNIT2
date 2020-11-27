@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Evaluare UNIT 2</title>
+</head>
+<body>
+
+<h1>Cerinta 3</h1>
+<p>In timpul rularii aplicatiei Youtube au fost utilizate urmatoarele resurse:</p>
+
+<img src="img1.png"> 
+<img src="img2.png">
+<img src="img3.png">
+<img src="img4.png">
+<img src="img5.png">
+</body>
+</html>
